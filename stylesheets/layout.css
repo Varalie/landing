@@ -1,0 +1,187 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menubar {
+  position: fixed;
+  z-index: 1;
+
+  display: flex;
+
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 4em;
+  margin-top: 0.5em;
+  margin-left: -0.1em;
+}
+
+.about {
+  margin-right: 2.5em;
+
+  text-decoration: none;
+
+  color: grey;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.one h2 {
+  position: absolute;
+  top: 4em;
+  left: 0.5em;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+}
+
+.one p {
+  position: absolute;
+  top: 11em;
+  left: 1em;
+
+  width: 23em;
+
+  color: #878E88;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
+
+.one img {
+  position: absolute;
+  top: 4em;
+  left: 60em;
+
+  width: 30em;
+}
+
+.two img {
+  position: absolute;
+  top: 50em;
+
+  width: 30em;
+}
+
+.two h2 {
+  position: absolute;
+  top: 12em;
+  left: 7em;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+}
+
+.two p {
+  position: absolute;
+  top: 27em;
+  left: 14em;
+
+  width: 22em;
+
+  color: #878E88;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
+
+.three h2 {
+  position: absolute;
+  top: 23em;
+  left: 0.5em;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+}
+
+.three p {
+  position: absolute;
+  top: 49em;
+  left: 1em;
+
+  color: #878E88;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
+
+.three img {
+  position: absolute;
+  top: 100em;
+  left: 60em;
+
+  width: 472px;
+  height: 707px;
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.three nav {
+  position: absolute;
+  top: 150em;
+  left: 29em;
+}
+
+.button {
+  position: absolute;
+
+  width: 10em;
+  height: 2em;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+  border-radius: 15px;
+  background-color: black;
+  box-shadow: 0 5px 20px rgba(142, 139, 139, 0.75);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 90px;
+}
+
+@media all and (min-width: 319px) and (max-width: 365px) {
+
+  .one img {
+    left: 50em;
+  }
+
+  .three img {
+    left: 50em;
+  }
+
+  .one h2 {
+    top: 3em;
+  }
+
+  .one p {
+    top: 9em;
+
+    width: 15em;
+  }
+
+  .two p {
+    width: 13em;
+  }
+
+  .three nav {
+    left: 25em;
+  }
+
+}
